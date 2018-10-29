@@ -1,6 +1,6 @@
 # Configure webpack config of React App created with Create-react-app
 
-It was Saturday night hanging around to solve the issue of [“ReferenceError: legacyLib is not defined”](_screenshots/referenceError-legacylib-is-not-defined.png) in my React+Typescript app. I was sure that this error was about my "legacyLib.js" lib file, which included thousands of lines of code coded as IIFE, [which wasn't bundled by webpack by default]((_screenshots/sourceview-before.png)).
+It was Saturday night hanging around to solve the issue of [“ReferenceError: legacyLib is not defined”](_screenshots/referenceError-legacylib-is-not-defined.png) in my React+Typescript app. I was sure that this error was about my "legacyLib.js" lib file, which included thousands of lines of code coded as IIFE, [which wasn't bundled by webpack by default](_screenshots/sourceview-before.png).
 
 ```text
 ReferenceError: legacyLib is not defined
